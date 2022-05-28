@@ -1,0 +1,30 @@
+
+
+GET http://localhost:3555/health
+
+###
+
+POST http://localhost:3555/createAccount
+content-type: application/json
+
+{
+     "data":{
+        "name": "test",
+        "email": "test",
+        "password": "test",
+    
+        "wallet": "test"
+     }
+}
+###
+
+POST https://exodus-backend.herokuapp.com/login
+content-type: application/json
+
+{
+    "data":{
+        "email": "g",
+        "password": "t"
+    }
+}
+###
